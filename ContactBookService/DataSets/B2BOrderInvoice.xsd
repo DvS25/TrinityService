@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="B2BOrderInvoice" targetNamespace="http://tempuri.org/B2BOrderInvoice.xsd" xmlns:mstns="http://tempuri.org/B2BOrderInvoice.xsd" xmlns="http://tempuri.org/B2BOrderInvoice.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="B2BOrderInvoice" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="B2BOrderInvoice" msprop:Generator_UserDSName="B2BOrderInvoice">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="OrderItems" msprop:Generator_TableClassName="OrderItemsDataTable" msprop:Generator_TableVarName="tableOrderItems" msprop:Generator_TablePropName="OrderItems" msprop:Generator_RowDeletingName="OrderItemsRowDeleting" msprop:Generator_RowChangingName="OrderItemsRowChanging" msprop:Generator_RowEvHandlerName="OrderItemsRowChangeEventHandler" msprop:Generator_RowDeletedName="OrderItemsRowDeleted" msprop:Generator_UserTableName="OrderItems" msprop:Generator_RowChangedName="OrderItemsRowChanged" msprop:Generator_RowEvArgName="OrderItemsRowChangeEvent" msprop:Generator_RowClassName="OrderItemsRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DesignNo" msprop:Generator_ColumnVarNameInTable="columnDesignNo" msprop:Generator_ColumnPropNameInRow="DesignNo" msprop:Generator_ColumnPropNameInTable="DesignNoColumn" msprop:Generator_UserColumnName="DesignNo" type="xs:string" minOccurs="0" />
+              <xs:element name="ImgPath" msprop:Generator_ColumnVarNameInTable="columnImgPath" msprop:Generator_ColumnPropNameInRow="ImgPath" msprop:Generator_ColumnPropNameInTable="ImgPathColumn" msprop:Generator_UserColumnName="ImgPath" type="xs:string" minOccurs="0" />
+              <xs:element name="Size" msprop:Generator_ColumnVarNameInTable="columnSize" msprop:Generator_ColumnPropNameInRow="Size" msprop:Generator_ColumnPropNameInTable="SizeColumn" msprop:Generator_UserColumnName="Size" type="xs:string" minOccurs="0" />
+              <xs:element name="Quantity" msprop:Generator_ColumnVarNameInTable="columnQuantity" msprop:Generator_ColumnPropNameInRow="Quantity" msprop:Generator_ColumnPropNameInTable="QuantityColumn" msprop:Generator_UserColumnName="Quantity" type="xs:int" minOccurs="0" />
+              <xs:element name="Particular" msprop:Generator_ColumnVarNameInTable="columnParticular" msprop:Generator_ColumnPropNameInRow="Particular" msprop:Generator_ColumnPropNameInTable="ParticularColumn" msprop:Generator_UserColumnName="Particular" type="xs:string" minOccurs="0" />
+              <xs:element name="Labour" msprop:Generator_ColumnVarNameInTable="columnLabour" msprop:Generator_ColumnPropNameInRow="Labour" msprop:Generator_ColumnPropNameInTable="LabourColumn" msprop:Generator_UserColumnName="Labour" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Amount" msprop:Generator_ColumnVarNameInTable="columnAmount" msprop:Generator_ColumnPropNameInRow="Amount" msprop:Generator_ColumnPropNameInTable="AmountColumn" msprop:Generator_UserColumnName="Amount" type="xs:decimal" minOccurs="0" />
+              <xs:element name="MetalWgt" msprop:Generator_ColumnVarNameInTable="columnMetalWgt" msprop:Generator_ColumnPropNameInRow="MetalWgt" msprop:Generator_ColumnPropNameInTable="MetalWgtColumn" msprop:Generator_UserColumnName="MetalWgt" type="xs:decimal" minOccurs="0" />
+              <xs:element name="DiaPcs" msprop:Generator_ColumnVarNameInTable="columnDiaPcs" msprop:Generator_ColumnPropNameInRow="DiaPcs" msprop:Generator_ColumnPropNameInTable="DiaPcsColumn" msprop:Generator_UserColumnName="DiaPcs" type="xs:int" minOccurs="0" />
+              <xs:element name="DiaWgt" msprop:Generator_ColumnVarNameInTable="columnDiaWgt" msprop:Generator_ColumnPropNameInRow="DiaWgt" msprop:Generator_ColumnPropNameInTable="DiaWgtColumn" msprop:Generator_UserColumnName="DiaWgt" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CSPcs" msprop:Generator_ColumnVarNameInTable="columnCSPcs" msprop:Generator_ColumnPropNameInRow="CSPcs" msprop:Generator_ColumnPropNameInTable="CSPcsColumn" msprop:Generator_UserColumnName="CSPcs" type="xs:int" minOccurs="0" />
+              <xs:element name="CSWgt" msprop:Generator_ColumnVarNameInTable="columnCSWgt" msprop:Generator_ColumnPropNameInRow="CSWgt" msprop:Generator_ColumnPropNameInTable="CSWgtColumn" msprop:Generator_UserColumnName="CSWgt" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Price" msprop:Generator_ColumnVarNameInTable="columnPrice" msprop:Generator_ColumnPropNameInRow="Price" msprop:Generator_ColumnPropNameInTable="PriceColumn" msprop:Generator_UserColumnName="Price" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

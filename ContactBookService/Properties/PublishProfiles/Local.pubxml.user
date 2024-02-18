@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>F:\StarTechProjects\ProjectPublish\TrinityService</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/ContactBookService.dll">
+      <publishTime>10/01/2022 15:32:04</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.CrystalReports.Engine.dll">
+      <publishTime>11/10/2018 07:44:08</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.ReportAppServer.ClientDoc.dll">
+      <publishTime>11/10/2018 07:44:08</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.ReportAppServer.CommLayer.dll">
+      <publishTime>11/10/2018 07:44:08</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.ReportAppServer.CommonControls.dll">
+      <publishTime>11/10/2018 07:44:08</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.ReportAppServer.CommonObjectModel.dll">
+      <publishTime>11/10/2018 07:44:08</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.ReportAppServer.Controllers.dll">
+      <publishTime>11/10/2018 07:44:08</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.ReportAppServer.CubeDefModel.dll">
+      <publishTime>11/10/2018 07:44:08</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.ReportAppServer.DataDefModel.dll">
+      <publishTime>11/10/2018 07:44:08</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.ReportAppServer.DataSetConversion.dll">
+      <publishTime>11/10/2018 07:44:08</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.ReportAppServer.ObjectFactory.dll">
+      <publishTime>11/10/2018 07:44:08</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.ReportAppServer.Prompting.dll">
+      <publishTime>11/10/2018 07:44:08</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.ReportAppServer.ReportDefModel.dll">
+      <publishTime>11/10/2018 07:44:08</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.ReportAppServer.XmlSerialize.dll">
+      <publishTime>11/10/2018 07:44:08</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.ReportSource.dll">
+      <publishTime>11/10/2018 07:44:10</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.Shared.dll">
+      <publishTime>11/10/2018 07:44:10</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>06/14/2022 16:03:37</publishTime>
+    </File>
+    <File Include="bin/Razorpay.dll">
+      <publishTime>06/14/2022 16:03:36</publishTime>
+    </File>
+    <File Include="bin/stdole.dll">
+      <publishTime>03/18/2010 23:21:56</publishTime>
+    </File>
+    <File Include="ContactBookService.svc">
+      <publishTime>06/14/2022 15:40:53</publishTime>
+    </File>
+    <File Include="Content/BlackBackground.png">
+      <publishTime>06/14/2022 15:40:53</publishTime>
+    </File>
+    <File Include="Content/favicon.ico">
+      <publishTime>06/14/2022 15:40:53</publishTime>
+    </File>
+    <File Include="Content/NoImage.png">
+      <publishTime>06/14/2022 15:40:53</publishTime>
+    </File>
+    <File Include="DataSets/B2BOrderInvoice.xsc">
+      <publishTime>06/14/2022 15:40:53</publishTime>
+    </File>
+    <File Include="DataSets/B2BOrderInvoice.xss">
+      <publishTime>06/14/2022 15:40:53</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>06/14/2022 15:40:53</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>10/01/2022 15:32:04</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
